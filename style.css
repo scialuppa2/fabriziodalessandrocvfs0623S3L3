@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+body{
+    background-image: url("img/sfondotasklist.jpg");
+}
+main {
+  width: 100%;
+  height: auto;
+  display: inline;
+  text-align: center;
+}
+
+#box-tasklist {
+  margin: 10em;
+  width: 50%;
+  height: auto;
+}
+#cosafare{
+  width: 60%;
+  height: auto;
+  font-family: 'Indie Flower', cursive;
+  font-size: large;
+  padding: 2%;
+  background-color: rgba(112, 128, 144, 0.534);
+  border-radius: 5px;
+}
+#lista {
+  width: 30%;
+  height: auto;
+  font-family: 'Indie Flower', cursive;
+  font-size: large;
+  padding: 2%;
+  color: white;
+  background-color: rgba(112, 128, 144, 0.534);
+  border-radius: 5px;
+}
+
+::placeholder{
+    color: white;
+}
+
+#button {
+  width: 20%;
+  height: 3em;
+  margin-left: 2em;
+  border-radius: 5px;
+  font-family: 'Indie Flower', cursive;
+  font-size: large;
+  background-color: rgba(112, 128, 144, 0.534);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
